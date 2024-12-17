@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ewssApp1.Pages.Notifications"
+             Title="Notifications">
+
+    <VerticalStackLayout>
+
+        <!-- Frame to emulate Android's FrameLayout with padding and border -->
+        <Frame
+            Padding="16"
+            Margin="10,0,10,0"
+            BackgroundColor="White"
+            HasShadow="True">
+
+            <VerticalStackLayout>
+                <!-- Notification Title -->
+                <Label
+                    Text="BIN STATISTICS"
+                    TextColor="Black"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    Margin="0,8,0,0" />
+
+                <!-- Notification Message -->
+                <Label
+                    Text="Bin: Recyclable is full!"
+                    TextColor="#666666"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Margin="0,4,0,0" />
+
+                <!-- Notification Timestamp -->
+                <Label
+                    Text="2 min ago"
+                    TextColor="#AAAAAA"
+                    FontSize="12"
+                    HorizontalOptions="Start"
+                    Margin="0,4,0,0" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame
+            Padding="16"
+            Margin="10,0,10,0"
+            BackgroundColor="White"
+            HasShadow="True">
+
+            <VerticalStackLayout>
+                <!-- Notification Title -->
+                <Label
+                    Text="BIN STATISTICS"
+                    TextColor="Black"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    Margin="0,8,0,0" />
+
+                <!-- Notification Message -->
+                <Label
+                    Text="Bin: Recyclable is full!"
+                    TextColor="#666666"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Margin="0,4,0,0" />
+
+                <!-- Notification Timestamp -->
+                <Label
+                    Text="2 min ago"
+                    TextColor="#AAAAAA"
+                    FontSize="12"
+                    HorizontalOptions="Start"
+                    Margin="0,4,0,0" />
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

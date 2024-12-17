@@ -1,0 +1,5 @@
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net6.0\ewssApp1.csproj.AssemblyReference.cache
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net6.0\ewssApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net6.0\ewssApp1.AssemblyInfoInputs.cache
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net6.0\ewssApp1.AssemblyInfo.cs
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net6.0\ewssApp1.csproj.CoreCompileInputs.cache

@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ewssApp1
+build_property.ProjectDir = C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/Pages/Dashboard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.Pages.Dashboard.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Dashboard.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Dashboard.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/Pages/Notifications.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.Pages.Notifications.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Notifications.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Notifications.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/Pages/TodayStats.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.Pages.TodayStats.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TodayStats.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TodayStats.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/Pages/YesterdayStats.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.Pages.YesterdayStats.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\YesterdayStats.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\YesterdayStats.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Paula/source/repos/ewssApp1 - Copy/ewssApp1/ewssApp1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ewssApp1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

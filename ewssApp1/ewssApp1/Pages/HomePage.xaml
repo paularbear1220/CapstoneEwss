@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ewssApp1.Pages.HomePage"
+             BackgroundColor="#50BB6A">
+
+    <VerticalStackLayout Spacing="10" HorizontalOptions="FillAndExpand">
+
+        <Label Text="ewss!"
+               FontFamily="LeafyFont"
+               FontSize="155"
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Padding="20,0,20,0"/>
+        <Label Text="Welcome to the Monitoring Application of EWSS Prototype Machine! This application is primarily developed to monitor the status of the deployed Smart Waste Bins within the PLMUN school grounds. Explore the application to monitor the bins' current status, the school's waste generated statistics, and more!"
+               Padding="20,0,20,0"
+               FontSize="15"
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               LineBreakMode="WordWrap"
+               MaxLines="5"/>
+
+        <Button Text="Learn More"
+                    BackgroundColor="#477B4E"
+                    HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ewssApp1.Pages.Dashboard">
+
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="Images/about.svg"
+                     Priority="0"
+                     Order="Primary"
+                     Text="About"/>
+    </ContentPage.ToolbarItems>-->
+    <ScrollView>
+        <Grid RowSpacing="0">
+        <!-- naka negative para magdikit dikit. If magkaproblema sa layout in terms of spacing, change this-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Navigation Bar -->
+        <StackLayout Grid.Row="0" Spacing="0" BackgroundColor="White" Padding="0,0,0,0">
+            <Label Text="EWSS Monitoring App"
+                   FontSize="Large"
+                   FontAttributes="Bold"    
+                   TextColor="#477B4E"
+                   HorizontalOptions="CenterAndExpand"/>
+
+            <!-- Add buttons or other navbar elements as needed -->
+        </StackLayout>
+
+        <!-- Content Area -->
+        <VerticalStackLayout Grid.Row="1" Spacing="10" HorizontalOptions="FillAndExpand">
+            <Frame HeightRequest="190"
+                   WidthRequest="400"
+                   CornerRadius="70"
+                   HorizontalOptions="Center"
+                   IsClippedToBounds="True"
+                   Padding="0"
+                   BorderColor="Gray"
+                   Margin="0,0,0,0">
+
+                <Image Source="Images/ewss1.png"
+                       HeightRequest="400"
+                       Aspect="AspectFit"/>
+            </Frame>
+
+             <!-- Three cards layout -->
+            <!-- Wrapping layout in a ScrollView to allow scrolling if needed -->
+                <Grid Padding="20" ColumnSpacing="10"
+                  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+
+                    <!-- Define three equal-width columns -->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <!-- Equal-width column -->
+                        <ColumnDefinition Width="*" />
+                        <!-- Equal-width column -->
+                        <ColumnDefinition Width="*" />
+                        <!-- Equal-width column -->
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Card 1: Yesterday's Waste -->
+                    <Frame Grid.Column="0" 
+                       HeightRequest="150" 
+                       CornerRadius="10"
+                       BorderColor="LightGray"
+                       BackgroundColor="White"
+                       HasShadow="True">
+                        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="Yesterday's Waste"
+                               FontAttributes="Bold"
+                               FontSize="16"
+                               HorizontalOptions="Center"/>
+                            <Label Text="10 kg"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"/>
+                            <Label Text="{Binding YesterdayDate}"
+                               FontSize="14"
+                               TextColor="Gray"
+                               HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnYesterdaysWasteTapped"/>
+                        </Frame.GestureRecognizers>
+                        
+                    </Frame>
+
+                    <!-- Card 2: Today's Waste -->
+                    <Frame Grid.Column="1" 
+                       HeightRequest="150" 
+                       CornerRadius="10"
+                       BorderColor="LightGray"
+                       BackgroundColor="White"
+                       HasShadow="True">
+                        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="Today's Waste"
+                               FontAttributes="Bold"
+                               FontSize="16"
+                               HorizontalOptions="Center"/>
+                            <Label Text="12 kg"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"/>
+                            <Label Text="{Binding TodayDate}"
+                               FontSize="14"
+                               TextColor="Gray"
+                               HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                        
+                        <!-- When Clicked -->
+                        
+                        <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTodaysWasteTapped"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+
+                    <!-- Card 3: Change in Waste -->
+                    <Frame Grid.Column="2" 
+                       HeightRequest="150" 
+                       CornerRadius="10"
+                       BorderColor="LightGray"
+                       BackgroundColor="White"
+                       HasShadow="True">
+                        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="Change in Waste"
+                               FontAttributes="Bold"
+                               FontSize="16"
+                               HorizontalOptions="Center"/>
+                            <Label Text="+20%"
+                                FontSize="22"
+                               FontAttributes="Bold"
+                               TextColor="Green"
+                                HorizontalOptions="Center"/>
+                            <Label Text="Since Yesterday"
+                               FontSize="14"
+                               TextColor="Gray"
+                               HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </Grid>
+
+                <Label Text="BIN STATISTICS"
+                   FontAttributes="Bold"
+                   FontSize="18"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   Padding="20,0,20,0"/>
+            <Label Text="Live Monitoring of individual bin's fullness"
+                   FontSize="12"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   Padding="20,0,20,0"/>
+            <!-- Bin Statistics Buttons with Icons -->
+
+                <VerticalStackLayout Padding="20" Spacing="15">
+
+                    <!-- Biodegradable Button -->
+                    <Frame BackgroundColor="#6B8E23" CornerRadius="10" HeightRequest="60" HorizontalOptions="FillAndExpand">
+                        <Grid ColumnDefinitions="Auto, *" VerticalOptions="Center">
+                            <Image Source="Images/biodegradable.png" HeightRequest="30" WidthRequest="30" VerticalOptions="Center" Margin="10,0"/>
+                            <Label Text="Biodegradable Bin: 56%" TextColor="White" FontAttributes="Bold" FontSize="16" VerticalOptions="Center" Grid.Column="1" Padding="5,0"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Non-Biodegradable Button -->
+                    <Frame BackgroundColor="#FF8C00" CornerRadius="10" HeightRequest="60" HorizontalOptions="FillAndExpand">
+                        <Grid ColumnDefinitions="Auto, *" VerticalOptions="Center">
+                            <Image Source="Images/nonbio.png" HeightRequest="30" WidthRequest="30" VerticalOptions="Center" Margin="10,0"/>
+                            <Label Text="Non-Biodegradable Bin: 22%" TextColor="White" FontAttributes="Bold" FontSize="16" VerticalOptions="Center" Grid.Column="1" Padding="5,0"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Recyclable Button -->
+                    <Frame BackgroundColor="#4682B4" CornerRadius="10" HeightRequest="60" HorizontalOptions="FillAndExpand">
+                        <Grid ColumnDefinitions="Auto, *" VerticalOptions="Center">
+                            <Image Source="Images/recyclable.png" HeightRequest="30" WidthRequest="30" VerticalOptions="Center" Margin="10,0"/>
+                            <Label Text="Recyclable Bin: 66%" TextColor="White" FontAttributes="Bold" FontSize="16" VerticalOptions="Center" Grid.Column="1" Padding="5,0"/>
+                        </Grid>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+                <Label Text="Overview"
+                   FontAttributes="Bold"
+                   FontSize="18"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   Padding="20,0,20,0"/>
+            <Label Text="Welcome to the Monitoring Application of EWSS Prototype Machine! This application is primarily developed to monitor the status of the deployed Smart Waste Bins within the PLMUN school grounds. Explore the application to monitor the bins' current status, the school's waste generated statistics, and more!"
+                   Padding="20,0,20,0"
+                   FontSize="15"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   LineBreakMode="WordWrap"
+                   MaxLines="10"/>
+
+            <!-- Check muna later kung anong pinagbago ng padding button along with the margin -->
+            <Button x:Name="NotificationBtn" 
+                    Text="Learn More"
+                    BackgroundColor="#477B4E"
+                    Padding="10" 
+                    Margin="10"
+                    HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </Grid>
+    </ScrollView>
+
+</ContentPage>

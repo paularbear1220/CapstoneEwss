@@ -1,0 +1,26 @@
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\bin\Debug\net8.0\ewssApp1.deps.json
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\bin\Debug\net8.0\ewssApp1.dll
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\bin\Debug\net8.0\ewssApp1.pdb
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.csproj.AssemblyReference.cache
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.AssemblyInfoInputs.cache
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.AssemblyInfo.cs
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.csproj.CoreCompileInputs.cache
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\XamlC.stamp
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.dll
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\refint\ewssApp1.dll
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.pdb
+C:\Users\Paula\source\repos\ewssApp1\ewssApp1\ewssApp1\obj\Debug\net8.0\ref\ewssApp1.dll
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.csproj.AssemblyReference.cache
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.AssemblyInfoInputs.cache
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.AssemblyInfo.cs
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.csproj.CoreCompileInputs.cache
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\bin\Debug\net8.0\ewssApp1.deps.json
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\bin\Debug\net8.0\ewssApp1.dll
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\bin\Debug\net8.0\ewssApp1.pdb
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\XamlC.stamp
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.dll
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\refint\ewssApp1.dll
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ewssApp1.pdb
+C:\Users\Paula\source\repos\ewssApp1 - Copy\ewssApp1\ewssApp1\obj\Debug\net8.0\ref\ewssApp1.dll
